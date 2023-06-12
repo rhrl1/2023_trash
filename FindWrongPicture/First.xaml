@@ -1,0 +1,27 @@
+﻿<Page x:Class="FindWrongPicture.First"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:FindWrongPicture"
+      mc:Ignorable="d" 
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="First">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" FontSize="50" FontWeight="Bold" 
+                   HorizontalAlignment="Center" VerticalAlignment="Center"
+                   Margin="10" Text="틀린그림 찾기"/>
+
+        <StackPanel Grid.Row="1" Margin="10" 
+                    HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Button x:Name="btnStart" Margin="10" FontSize="30" Content="게임 시작" Click="btnStart_Click"/>
+            <Button x:Name="btnRule" Margin="10" FontSize="30" Content="게임 방법" Click="btnRule_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
