@@ -23,7 +23,7 @@ namespace WindowsFormsApp3
             // 거실
             lblLiving.Text = f.label6.Text;
             label2.Text = f.label8.Text;
-            label3.Text = f.label7.Text;
+            label5.Text = f.label7.Text;
 
             //방2
             label7.Text = f.label10.Text;

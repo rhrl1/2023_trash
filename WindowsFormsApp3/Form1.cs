@@ -105,6 +105,8 @@ namespace WindowsFormsApp3
             listView2.EnsureVisible(listView2.Items.Count - 1); // 새로 받아오는 데이터 자동스크롤
         }
 
+
+        // 3
         private void button6_Click(object sender, EventArgs e)
         {
             if (textBox3.Text == "")
@@ -129,7 +131,7 @@ namespace WindowsFormsApp3
 
         private void serialPort3_DataReceived(object sender, System.IO.Ports.SerialDataReceivedEventArgs e)
         {
-            string rawdata = label12.Text = serialPort1.ReadLine();
+            string rawdata = label12.Text = serialPort3.ReadLine();
 
             string[] data = rawdata.Split(',');
 
