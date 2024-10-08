@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "007_PT", "007_PT.csproj", "{5881AB29-A6D9-4C44-8169-F4321F75C515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{43FA08DE-9F36-4A90-A6E9-88F53598CF2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5881AB29-A6D9-4C44-8169-F4321F75C515}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5881AB29-A6D9-4C44-8169-F4321F75C515}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5881AB29-A6D9-4C44-8169-F4321F75C515}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5881AB29-A6D9-4C44-8169-F4321F75C515}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CBC7BF3-F1B1-4D1D-97F0-18F7A2EF4A5E}
+	EndGlobalSection
+EndGlobal
